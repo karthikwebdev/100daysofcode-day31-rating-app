@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c3ee78a1f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+           <div class="box" id="first-box">
+               <h1>average rating</h1>
+               <span id="rating">0</span>
+           </div>
+           <div class="box" id="second-box">
+                <h1>give your ratings here</h1>
+                <div id="stars">
+                    <span>
+                    <i class="icon far" data-rating="1" onmouseenter="fun(1)" onmouseleave="next(1)" onclick="rate(1)">&#xf005</i>
+                    </span>
+                    <span>
+                    <i class="icon far" data-rating="2"  onmouseover="fun(2)" onmouseleave="next(2)" onclick="rate(2)">&#xf005</i>
+                </span>
+                <span>  
+                    <i class="icon far" data-rating="3"  onmouseover="fun(3)" onmouseleave="next(3)" onclick="rate(3)">&#xf005</i>
+                </span>
+                <span>
+                    <i class="icon  far" data-rating="4"  onmouseover="fun(4)" onmouseleave="next(4)" onclick="rate(4)">&#xf005</i>
+                </span>
+                <span>
+                    <i class="icon far" data-rating="5"  onmouseover="fun(5)" onmouseleave="next(5)" onclick="rate(5)">&#xf005</i>
+                </span>
+                </div>
+           </div>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>
